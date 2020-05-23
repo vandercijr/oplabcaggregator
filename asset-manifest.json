@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/oplabcaggregator/static/js/main.f0b5416a.chunk.js",
+    "main.js.map": "/oplabcaggregator/static/js/main.f0b5416a.chunk.js.map",
+    "runtime-main.js": "/oplabcaggregator/static/js/runtime-main.41634365.js",
+    "runtime-main.js.map": "/oplabcaggregator/static/js/runtime-main.41634365.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/oplabcaggregator/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.2368b16e.chunk.js": "/oplabcaggregator/static/js/2.2368b16e.chunk.js",
+    "static/js/2.2368b16e.chunk.js.map": "/oplabcaggregator/static/js/2.2368b16e.chunk.js.map",
+    "index.html": "/oplabcaggregator/index.html",
+    "precache-manifest.6133c17828a01077a659d0a95bb0bbfc.js": "/oplabcaggregator/precache-manifest.6133c17828a01077a659d0a95bb0bbfc.js",
+    "service-worker.js": "/oplabcaggregator/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/oplabcaggregator/static/css/2.af3c1da9.chunk.css.map",
+    "static/js/2.2368b16e.chunk.js.LICENSE.txt": "/oplabcaggregator/static/js/2.2368b16e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41634365.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.2368b16e.chunk.js",
+    "static/js/main.f0b5416a.chunk.js"
+  ]
+}
