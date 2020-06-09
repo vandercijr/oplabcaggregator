@@ -1,4 +1,43 @@
 package-lock.json
-node_modules
 yalc.lock
-build
+
+backend/package-lock.json
+backend/yalc.lock
+backend/node_modules/
+backend/.yalc/
+
+frontend/package-lock.json
+frontend/yalc.lock
+frontend/node_modules/
+frontend/.yalc/
+frontend/build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+.yalc/
+
+lib/
