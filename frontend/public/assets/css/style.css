@@ -1,0 +1,39 @@
+.iorunner {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.twitter-avatar {
+  line-height: 0;
+  display: inline-block;
+  margin: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  transition: linear 0.25s;
+  height: 32px;
+  width: 32px;
+}
+
+.twitter-avatar img {
+  border-radius: 50%;
+}
+
+.twitter-avatar:hover {
+  transition: ease-out 0.2s;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  -webkit-transition: ease-out 0.2s;
+}
+
+a.twitter-avatar {
+  color: transparent;
+}
+
+.tweet-text {
+  padding: 10px;
+}
+
+.look-for {
+  color: #1a92dc;
+}
+
+/*# sourceMappingURL=style.css.map */

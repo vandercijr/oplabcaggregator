@@ -1,0 +1,29 @@
+{
+  "name": "oplab-challenge",
+  "version": "0.1.1-9d90cfac",
+  "description": "A bunch of algorithms and other things for a job challenge",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vandercijr/oplab-challenge.git"
+  },
+  "keywords": [
+    "bubblesort",
+    "gameofstones",
+    "linkedlist"
+  ],
+  "author": "vanderci curvelo junior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vandercijr/oplab-challenge/issues"
+  },
+  "homepage": "https://github.com/vandercijr/oplab-challenge#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "sass": "^1.26.5",
+    "twitter": "^1.7.1"
+  },
+  "resolutions": {
+    "babel-core": "7.0.0-bridge.0"
+  }
+}

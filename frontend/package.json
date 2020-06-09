@@ -1,0 +1,45 @@
+{
+  "homepage": "http://vandercijr.github.io/oplabcaggregator",
+  "name": "oplabcaggregator",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "start": "env-cmd -f .env react-scripts start",
+    "start:prod": "env-cmd -f .env.production react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "gh-pages": "^2.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "dotenv": "^8.2.0",
+    "env-cmd": "^10.1.0",
+    "jquery": "^3.5.1",
+    "oplab-challenge": "file:.yalc/oplab-challenge",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1"
+  }
+}
