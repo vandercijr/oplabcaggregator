@@ -9,34 +9,30 @@
     "express": "^4.17.1",
     "oplab-challenge": "file:.yalc/oplab-challenge"
   },
-  "devDependencies":  {
-    "eslint": "^5.12.0",
-    "eslint-plugin-promise": "^4.0.1",
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0",
-    "@babel/parser": "^7.9.6",
-    "@babel/preset-env": "^7.0.0",
-    "@babel/preset-react": "^7.0.0",
-    "@testing-library/user-event": "^7.2.1",
-    "babel-cli": "^6.26.0",
-    "env-cmd": "^10.1.0"
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "eslint": "^7.2.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "gh-pages": "^2.2.0"
   },
   "babel": {
     "presets": [
-      "@babel/plugin-proposal-class-properties",
-      "@babel/preset-env",
-      "@babel/preset-react"
+      "@babel/preset-env"
     ]
   },
   "engines": {
     "node": "12.x"
   },
   "scripts": {
-    "lint": "eslint",
+    "lint": "./node_modules/.bin/eslint src",
+    "build": "./node_modules/.bin/babel --ignore node_modules,.yalc src --out-dir lib",
     "start": "node server.js",
-    "start:prod": "env-cmd -f .env.production node server.js"
-  },
-  "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "heroku-postbuild": "ng build --prod",
+    "heroku-prebuild": "echo This runs before Heroku installs dependencies.",
+    "heroku-postbuild": "echo This runs after Heroku installs dependencies, but before Heroku prunes and caches dependencies.",
+    "heroku-cleanup": "echo This runs after Heroku prunes and caches dependencies."
   }
 }
