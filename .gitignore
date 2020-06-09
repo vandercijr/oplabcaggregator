@@ -38,6 +38,7 @@ node_modules/
 # dotenv environment variables file
 backend/.env
 backend/.env.production
+
 frontend/.env
 frontend/.env.production
 
