@@ -30,6 +30,9 @@ const TwitterController = {
       .then((data) =>  {
         return res.json(data);
       })
+      .catch((err)  =>  {
+        throw err;
+      })
 
       // let number_of_tweets = 1;
       //
