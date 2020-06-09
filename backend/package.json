@@ -1,0 +1,42 @@
+{
+  "name": "oplabcaggregator-backend",
+  "main": "server.js",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "oplab-challenge": "file:.yalc/oplab-challenge"
+  },
+  "devDependencies":  {
+    "eslint": "^5.12.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/parser": "^7.9.6",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@testing-library/user-event": "^7.2.1",
+    "babel-cli": "^6.26.0",
+    "env-cmd": "^10.1.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "scripts": {
+    "lint": "eslint",
+    "start": "node server.js",
+    "start:prod": "env-cmd -f .env.production node server.js"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
