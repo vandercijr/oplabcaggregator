@@ -28,7 +28,7 @@
   },
   "scripts": {
     "lint": "./node_modules/.bin/eslint src",
-    "build": "./node_modules/.bin/babel --ignore node_modules",
+    "build": "babel --ignore node_modules",
     "start": "node server.js"
   }
 }
