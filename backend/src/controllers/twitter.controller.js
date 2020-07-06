@@ -1,3 +1,4 @@
+'use strict'
 /**
  * Arquivo: twitter.controller.js
  * Author: Vanderci Curvelo Junior
@@ -31,7 +32,7 @@ const TwitterController = {
         return res.json(data);
       })
       .catch((err)  =>  {
-        throw err;
+        throw res.json(err);
       })
 
       // let number_of_tweets = 1;
