@@ -7,7 +7,7 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "oplab-challenge": "file:.yalc/oplab-challenge"
+    "oplab-challenge": "git:github.com/vandercijr/oplab-challenge"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.1",
@@ -29,10 +29,6 @@
   "scripts": {
     "lint": "./node_modules/.bin/eslint src",
     "build": "./node_modules/.bin/babel --ignore node_modules,.yalc src --out-dir lib",
-    "start": "node server.js",
-    "heroku-postbuild": "ng build --prod",
-    "heroku-prebuild": "echo This runs before Heroku installs dependencies.",
-    "heroku-postbuild": "echo This runs after Heroku installs dependencies, but before Heroku prunes and caches dependencies.",
-    "heroku-cleanup": "echo This runs after Heroku prunes and caches dependencies."
+    "start": "node server.js"
   }
 }
