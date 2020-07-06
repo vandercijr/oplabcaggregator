@@ -10,7 +10,7 @@
     "oplab-challenge": "git:github.com/vandercijr/oplab-challenge"
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.1",
+    "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.2",
     "@babel/plugin-proposal-class-properties": "^7.10.1",
     "@babel/preset-env": "^7.10.2",
@@ -31,6 +31,6 @@
     "build-babel": "babel -d ./lib ./src -s  --ignore node_modules",
     "lint": "./node_modules/.bin/eslint src",
     "build": "npm run clean && npm run build-babel",
-    "start": "node server.js"
+    "start": "babel-node server.js"
   }
 }
