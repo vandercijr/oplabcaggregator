@@ -15,7 +15,10 @@
     "eject": "react-scripts eject",
     "start:server": "cd backend && npm start",
     "start:client": "cd frontend && npm start",
-    "start": "npm-run-all --parallel start:client start:server"
+    "start": "npm-run-all --parallel start:client start:server",
+    "heroku-prebuild": "cd backend && yalc add oplab-challenge && npm install && npm run build",
+    "heroku-postbuild": "echo This runs after Heroku installs dependencies, but before Heroku prunes and caches dependencies.",
+    "heroku-cleanup": "echo This runs after Heroku prunes and caches dependencies."
   },
   "devDependencies": {
     "gh-pages": "^2.2.0"
