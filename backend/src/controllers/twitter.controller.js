@@ -7,7 +7,7 @@
  * Documentação: http://chaijs.com/guide/styles/#assert
  *
  */
-const  Twitter = require('oplab-challenge/lib/algorithms/twitter/twitter');
+const  Twitter = require('oplab-challenge/src/algorithms/twitter/twitter');
 
 const TwitterController = {
   retrieveTweets : (req, res, next) => {
