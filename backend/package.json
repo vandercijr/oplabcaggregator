@@ -27,8 +27,10 @@
     "node": "12.x"
   },
   "scripts": {
+    "clean": "rm -rf lib && mkdir lib",
+    "build-babel": "babel -d ./lib ./src -s  --ignore node_modules",
     "lint": "./node_modules/.bin/eslint src",
-    "build": "babel --ignore node_modules",
+    "build": "npm run clean && npm run build-babel",
     "start": "node server.js"
   }
 }
