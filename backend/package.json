@@ -28,9 +28,8 @@
   },
   "scripts": {
     "clean": "rm -rf lib && mkdir lib",
-    "build-babel": "./node_modules/.bin/babel-node -d ./lib ./src -s  --ignore node_modules",
     "lint": "./node_modules/.bin/eslint src",
-    "build": "npm run clean && npm run build-babel",
+    "build": "npm run clean",
     "start": "babel-node server.js"
   }
 }
